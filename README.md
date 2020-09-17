@@ -8,7 +8,7 @@
 
 ### ¿Qué vas a aprender?
 
-Conoce toda el álgebra lineal de la mano de Juan Gabriel Gomila y María Santos. Asienta las bases para convertirte en el Data Scientist del futuro con todo el contenido del curso. En particular verás los mismos contenidos que explicamos en primero de carrera a matemáticos, ingenieros o informáticos como por ejemplo:
+Conoce toda el *álgebra lineal* de la mano de Juan Gabriel Gomila y María Santos. Asienta las bases para convertirte en el Data Scientist del futuro con todo el contenido del curso. En particular verás los mismos contenidos que explicamos en primero de carrera a matemáticos, ingenieros o informáticos como por ejemplo:
 
 * Logística e instalación de R y RStudio, Anaconda Navigator para Python y Octave GNU para ingeniería.
 * Cómo usar R, Python y Octave como si fuese una calculadora científica para complementar tu estudio día a día
