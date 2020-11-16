@@ -1,0 +1,56 @@
+---
+title: "Complex Numbers"
+author: "Roberto Gainza"
+date: "November 16, 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Complex Numbers
+
+```{r}
+z1 = 2+1i
+print(z1)
+
+z2 = complex(real = 2, imaginary = -1)
+print(z2)
+
+z3 = complex(modulus = 2, argument = pi)
+print(z3)
+```
+
+```{r}
+print(z1)
+print(Re(z1))
+print(Im(z1))
+```
+```{r}
+print(z3)
+# Here we have a round problem. It's the way to print the zero.
+print(Im(z3))
+```
+
+```{r}
+print(Conj(z1))
+print(Conj(z2))
+print(Conj(z3))
+```
+
+```{r}
+print(z1)
+print(Mod(z1))
+print(Arg(z1))
+
+z3
+Mod(z3)
+Arg(z3)
+```
+```{r}
+z1+z2
+3*z2
+z1*z3
+```
+
