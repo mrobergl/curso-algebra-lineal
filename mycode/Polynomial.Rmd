@@ -1,0 +1,63 @@
+---
+title: "Polynomial"
+author: "Roberto Gainza"
+date: "November 18, 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Polynomial
+
+Instaling packages to work with polynomial
+
+```{r}
+install.packages(c("polynom", "pracma"))
+```
+
+```{r}
+library(polynom)
+library(pracma)
+```
+```{r}
+p = polynomial(coef = c(1,-6,0,0,1))
+p
+q = polynomial(coef = c(0,-5,0,3))
+q
+r = polynomial(coef = c(2,0,-1,0,1))
+r
+```
+```{r}
+p+3*q +r
+#
+p / q - r
+```
+
+```{r}
+p == q
+
+# polynomial grade with length(pol) - 1
+grade_p = length(p)
+grade_p
+```
+```{r}
+c = p / q
+r = p %% q
+p
+q * c + r
+```
+
+```{r}
+# To predict a polynomial we use predict(p,x)
+p
+predict(p,1)
+predict(p,0)
+```
+
+```{r}
+# polyroot(p) calc the roots
+polyroot(p)
+```
+
